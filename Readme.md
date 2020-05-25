@@ -66,31 +66,31 @@ Tambien agregamos las siguientes dependencias:
 - Javaee-api
 - 8.0.1
 
-Agregamos tambien.
+Agregamos tambien:
 - javax.persistence
 - javax.persistence-api
 - 2.2
 
 Y con esto ya tenemos la libreria de JPA
-Tambien debemos agregaruna implementación del API JDA que es eclipselink.
--org.eclipse.persistence
--eclipselink
--2.7.4
+Tambien debemos agregaruna implementación del API JDA que es eclipselink:
+- org.eclipse.persistence
+- eclipselink
+- 2.7.4
 
-Agregamos la dependencia del controlador de MySQL.
--mysql
--mysql-connector-java
--8.0.20
+Agregamos la dependencia del controlador de MySQL:
+- mysql
+- mysql-connector-java
+- 8.0.20
 
-Agregamos la dependencia de log4j.
--org.apache.logging.log4j
--log4j-api
--2.12.1
+Agregamos la dependencia de log4j:
+- org.apache.logging.log4j
+- log4j-api
+- 2.12.1
 
-Agregamos la implementacion.
--org.apache.logging.log4j
--log4j-core
--2.12.1
+Agregamos la implementacion:
+- org.apache.logging.log4j
+- log4j-core
+- 2.12.1
 
 Para descargar todas estas librerías deberemos dar click derecho en nuestro proyecto y luego 'clean and build'
 Ahora vamos a necesitar la carpeta resources
