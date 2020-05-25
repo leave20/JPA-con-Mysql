@@ -61,15 +61,15 @@ Y hacemos las siguientes modificaciones:
 </project>
 ```
 Cambiamos la versión del jdk en 'maven.compiler.target' por el 1.8
-Tambien agregamos las siguientes dependencias.
--Javax
--Javaee-api
--8.0.1
+Tambien agregamos las siguientes dependencias:
+- Javax
+- Javaee-api
+- 8.0.1
 
 Agregamos tambien.
--javax.persistence
--javax.persistence-api
--2.2
+- javax.persistence
+- javax.persistence-api
+- 2.2
 
 Y con esto ya tenemos la libreria de JPA
 Tambien debemos agregaruna implementación del API JDA que es eclipselink.
